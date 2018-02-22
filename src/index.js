@@ -1,4 +1,4 @@
-function sum(...nums){
+function sum (...nums) {
   return nums.reduce((a, b) => b)
 }
 
