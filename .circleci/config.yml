@@ -12,7 +12,7 @@ jobs:
       - image: circleci/node
     steps:
       - checkout
-      - run: yran
+      - run: yarn
       - run: yarn lint
 
 workflows:
