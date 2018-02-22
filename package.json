@@ -5,10 +5,12 @@
   "author": "arihito <arihito.m@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "yarn lint",
+    "test": "yarn lint; yarn ava",
+    "ava": "ava ./src/ -v",
     "lint": "eslint ./src/index.js"
   },
   "devDependencies": {
+    "ava": "^0.25.0",
     "eslint": "^4.18.1",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.9.0",
