@@ -1,0 +1,7 @@
+{
+  "name": "ci-handson",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "arihito <arihito.m@gmail.com>",
+  "license": "MIT"
+}
